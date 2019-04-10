@@ -9,9 +9,6 @@ export const Results = styled("div")`
     top: 50px;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
-    width: 60%;
-    @media screen and (min-width: ${breakPoints[1]}) {
-        width: 100%;
-    }
+    width: 100%;
 `;
 
